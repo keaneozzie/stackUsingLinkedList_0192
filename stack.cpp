@@ -38,4 +38,7 @@ public:
         return value;
     }
 
-    
+    void pop()
+    {
+        node *temp = top;
+       
